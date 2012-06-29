@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2010 Ole André Vadla Ravnås <oravnas@cisco.com>
+ * Copyright (C) 2012 Ponomarenko Stanislav Igorevich <stas.ponomarenko@hiq.ru>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -27,6 +28,7 @@
 #define DEFAULT_DEVICE_INDEX  -1
 #define DEFAULT_DO_STATS      FALSE
 
+// pixel format changed from YUV2, because new apple device (iPhone 3GS or later) by default work with NV12
 #define DEVICE_VIDEO_FORMAT   GST_VIDEO_FORMAT_NV12
 #define DEVICE_YUV_FOURCC     "NV12"
 #define DEVICE_FPS_N          25
